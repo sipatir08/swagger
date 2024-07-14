@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "cb111dd0-0b1b-4ed6-b4a8-fb8d6c5273a0",
+		"name": "piii",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33355475"
+	},
+	"item": [
+		{
+			"name": "Registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"todos\",\r\n    \"email\": \"todos@gmail.com\",\r\n    \"password\": \"1qazxsw2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cupu-ml-university-api.vercel.app/registration",
+					"protocol": "https",
+					"host": [
+						"cupu-ml-university-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"todos@gmail.com\",\r\n    \"password\": \"1qazxsw2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cupu-ml-university-api.vercel.app/login",
+					"protocol": "https",
+					"host": [
+						"cupu-ml-university-api",
+						"vercel",
+						"app"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
